@@ -140,7 +140,7 @@
 	/* Issue subject text ellipsis */
 	$(document).ready(function () {
 		var resizeActions = function() {
-			$('.rdb-property-subject').ellipsis();
+			$('.rdb-property-subject').ellipsis({setTitle: 'onEllipsis'});
 
 			var box = $('#rdb-errors');
 			var board = $('#rdb-board');
